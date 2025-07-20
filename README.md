@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚀 CODECAVE - Elite Developer Portfolio
 
 A modern, professional, and highly responsive portfolio website with a sleek dark theme and flashy animations.
@@ -57,3 +58,6 @@ MIT License - feel free to use this template for your own portfolio!
 ---
 
 **"Code in the shadows, deliver in the light."** ⚡
+=======
+# Codecave
+>>>>>>> ecd4550f52f7866ab5fcdac9e03802c366d8ecad
