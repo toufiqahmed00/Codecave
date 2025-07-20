@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODECAVE | Elite Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="codecave-loading-logo">
+            <div class="codecave-symbol"></div>
+        </div>
+        <div class="loading-text">CODECAVE LOADING...</div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="codecave-logo"></div>
+                <span class="logo-text">CODECAVE</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" data-section="home">HOME</a></li>
+                <li><a href="#about" data-section="about">PROFILE</a></li>
+                <li><a href="#experience" data-section="experience">EXPERIENCE</a></li>
+                <li><a href="#work" data-section="work">PROJECTS</a></li>
+                <li><a href="#education" data-section="education">TRAINING</a></li>
+                <li><a href="#contact" data-section="contact">CONTACT</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="city-skyline"></div>
+            <div class="bat-signal"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">THE</span>
+                    <span class="title-line main-title">DEVELOPER</span>
+                    <span class="title-line subtitle">GOTHAM NEEDS</span>
+                </h1>
+                <p class="hero-description">
+                    <span class="typing-text">Crafting digital solutions in the shadows of innovation</span>
+                </p>
+                <div class="hero-buttons">
+                    <a href="#work" class="btn btn-primary">
+                        <span>VIEW PROJECTS</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>CONTACT</span>
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+            <span>SCROLL</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">PROFILE</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-left">
+                    <div class="profile-card">
+                        <div class="profile-image">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="profile-info">
+                            <h3>THE DEVELOPER</h3>
+                            <p class="profile-role">Full Stack Engineer</p>
+                            <div class="profile-stats">
+                                <div class="stat">
+                                    <span class="stat-number">5+</span>
+                                    <span class="stat-label">Years</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-number">50+</span>
+                                    <span class="stat-label">Projects</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-number">100%</span>
+                                    <span class="stat-label">Dedication</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-right">
+                    <div class="about-text">
+                        <p class="about-intro">
+                            Like the Dark Knight protects Gotham, I protect your digital presence with cutting-edge solutions and unwavering dedication.
+                        </p>
+                        <p class="about-description">
+                            By day, I'm a developer crafting elegant code. By night, I'm still a developer, because great software never sleeps. I specialize in creating robust, scalable applications that stand the test of time.
+                        </p>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h4>FRONTEND</h4>
+                            <div class="skill-items">
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">Vue.js</span>
+                                <span class="skill-tag">TypeScript</span>
+                                <span class="skill-tag">Next.js</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>BACKEND</h4>
+                            <div class="skill-items">
+                                <span class="skill-tag">Node.js</span>
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">PostgreSQL</span>
+                                <span class="skill-tag">MongoDB</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>TOOLS</h4>
+                            <div class="skill-items">
+                                <span class="skill-tag">Docker</span>
+                                <span class="skill-tag">AWS</span>
+                                <span class="skill-tag">Git</span>
+                                <span class="skill-tag">Figma</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">EXPERIENCE</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="experience-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2023 - Present</div>
+                        <h3 class="timeline-title">Senior Full Stack Developer</h3>
+                        <h4 class="timeline-company">Wayne Enterprises</h4>
+                        <p class="timeline-description">
+                            Leading development of mission-critical applications, implementing advanced security protocols, and mentoring junior developers in the art of clean code.
+                        </p>
+                        <div class="timeline-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>AWS</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2021 - 2023</div>
+                        <h3 class="timeline-title">Full Stack Developer</h3>
+                        <h4 class="timeline-company">Gotham Tech Solutions</h4>
+                        <p class="timeline-description">
+                            Developed and maintained multiple web applications, optimized database performance, and implemented responsive designs for enhanced user experience.
+                        </p>
+                        <div class="timeline-tech">
+                            <span>Vue.js</span>
+                            <span>Python</span>
+                            <span>MongoDB</span>
+                            <span>Docker</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2019 - 2021</div>
+                        <h3 class="timeline-title">Frontend Developer</h3>
+                        <h4 class="timeline-company">Digital Innovations Inc.</h4>
+                        <p class="timeline-description">
+                            Specialized in creating interactive user interfaces, implementing modern design systems, and ensuring cross-browser compatibility.
+                        </p>
+                        <div class="timeline-tech">
+                            <span>JavaScript</span>
+                            <span>CSS3</span>
+                            <span>HTML5</span>
+                            <span>SASS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work/Projects Section -->
+    <section id="work" class="work">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">PROJECTS</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">FEATURED PROJECT</div>
+                        <h3 class="project-title">Gotham Security System</h3>
+                        <p class="project-description">
+                            A comprehensive security management platform with real-time monitoring, threat detection, and automated response systems. Built with cutting-edge technology for maximum protection.
+                        </p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>WebSocket</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Wayne Industries Dashboard</h3>
+                        <p class="project-description">
+                            Executive dashboard for monitoring company operations, financial metrics, and strategic initiatives with advanced data visualization.
+                        </p>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>D3.js</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Arkham Database</h3>
+                        <p class="project-description">
+                            Secure database management system with advanced encryption and access control for sensitive information storage.
+                        </p>
+                        <div class="project-tech">
+                            <span>PostgreSQL</span>
+                            <span>Redis</span>
+                            <span>Docker</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Batcave Analytics</h3>
+                        <p class="project-description">
+                            Advanced analytics platform for processing and visualizing complex data patterns with machine learning integration.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>React</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">TRAINING</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="education-content">
+                <div class="education-left">
+                    <div class="education-item">
+                        <div class="education-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="education-details">
+                            <h3>Master of Computer Science</h3>
+                            <h4>Gotham University</h4>
+                            <div class="education-date">2017 - 2019</div>
+                            <p>Specialized in Advanced Algorithms, Machine Learning, and Cybersecurity. Graduated Summa Cum Laude with research focus on distributed systems.</p>
+                        </div>
+                    </div>
+                    <div class="education-item">
+                        <div class="education-icon">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div class="education-details">
+                            <h3>Bachelor of Software Engineering</h3>
+                            <h4>Wayne State University</h4>
+                            <div class="education-date">2013 - 2017</div>
+                            <p>Foundation in software development, database systems, and web technologies. Active member of the Computer Science Society.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-right">
+                    <div class="certifications">
+                        <h3>CERTIFICATIONS</h3>
+                        <div class="cert-grid">
+                            <div class="cert-item">
+                                <div class="cert-icon">
+                                    <i class="fab fa-aws"></i>
+                                </div>
+                                <div class="cert-info">
+                                    <h4>AWS Solutions Architect</h4>
+                                    <span>Professional Level</span>
+                                </div>
+                            </div>
+                            <div class="cert-item">
+                                <div class="cert-icon">
+                                    <i class="fab fa-google"></i>
+                                </div>
+                                <div class="cert-info">
+                                    <h4>Google Cloud Professional</h4>
+                                    <span>Cloud Developer</span>
+                                </div>
+                            </div>
+                            <div class="cert-item">
+                                <div class="cert-icon">
+                                    <i class="fab fa-microsoft"></i>
+                                </div>
+                                <div class="cert-info">
+                                    <h4>Microsoft Azure</h4>
+                                    <span>DevOps Engineer</span>
+                                </div>
+                            </div>
+                            <div class="cert-item">
+                                <div class="cert-icon">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <div class="cert-info">
+                                    <h4>Certified Ethical Hacker</h4>
+                                    <span>CEH v11</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">CONTACT</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-left">
+                    <div class="contact-info">
+                        <h3>LET'S WORK TOGETHER</h3>
+                        <p>Ready to bring your next project to life? Whether you need a full-stack application, a sleek frontend, or technical consultation, I'm here to help.</p>
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="method-info">
+                                    <h4>Email</h4>
+                                    <span>contact@darkknightdev.com</span>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="method-info">
+                                    <h4>Phone</h4>
+                                    <span>+1 (555) BAT-CAVE</span>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="method-info">
+                                    <h4>Location</h4>
+                                    <span>Gotham City, NY</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-dribbble"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Your Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" required>
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" required></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span>SEND MESSAGE</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <div class="codecave-logo small"></div>
+                    <span>CODECAVE</span>
+                </div>
+                <p>&copy; 2025 CODECAVE. Elite Developer Portfolio. All rights reserved.</p>
+            </div>
+            <div class="footer-right">
+                <p>"Code in the shadows, deliver in the light."</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
